@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chinese Flashcards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu-page">
+        <h1>Chinese (Simplified) Flashcards</h1>
+        <h2>Select HSK Level</h2>
+        <div id="menu">
+            <button class="level-btn" data-level="1">HSK 1</button>
+            <button class="level-btn" data-level="2">HSK 2</button>
+            <button class="level-btn" data-level="3">HSK 3</button>
+            <button class="level-btn" data-level="4">HSK 4</button>
+            <button class="level-btn" data-level="5">HSK 5</button>
+            <button class="level-btn" data-level="6">HSK 6</button>
+        </div>
+    </div>
+
+    <div id="practice-page" class="hidden"> 
+        <button id="back-to-menu">← Back to Menu</button>
+        
+        <div class="card-container">
+            <div id="flashcard" class="card-inner">
+                <div class="card-front">
+                    <h1 id="char">字</h1>
+                </div>
+                <div class="card-back">
+                    <p id="pinyin">zì</p>
+                    <p id="definition">character</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn">Previous Word</button>
+            <button id="next-btn">Next Word →</button>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="app.js"></script>
+</body>
+</html>
