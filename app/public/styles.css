@@ -6,6 +6,11 @@
     margin: 0 auto;
 }
 
+h1, h2 {
+    text-align: center;
+    width: 100%;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -45,19 +50,20 @@ body {
     height: 100%;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: #ffffff;
     display: flex;
 }
 
 #char {
-    font-size: 20vw; /* Scales with screen width */
-    max-width: 120px;
+    font-size: 6rem; /* Scales with screen width */
+    line-height: 1;
     margin: 0;
 }
 
 #pinyin {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #666;
     margin-bottom: 10px;
 }
