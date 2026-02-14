@@ -64,13 +64,13 @@ body {
 }
 
 #char {
-    font-size: 6rem; 
+    font-size: 25vw; 
     line-height: 1;
     margin: 0;
 }
 
 #pinyin {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #666;
     margin-bottom: 10px;
 }
